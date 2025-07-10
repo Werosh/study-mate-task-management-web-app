@@ -80,13 +80,10 @@ const Register = () => {
     setLoading(true);
 
     try {
-      // Replace this demo code with actual Firebase registration
       const user = await registerUser(email, password);
 
-      // Demo simulation - remove this when using real Firebase
       await new Promise((resolve, reject) => {
         setTimeout(() => {
-          // Simulate different outcomes for demo
           if (email === "test@error.com") {
             reject({ code: "auth/email-already-in-use" });
           } else {
@@ -103,11 +100,10 @@ const Register = () => {
       setPassword("");
       setConfirmPassword("");
 
-      // Redirect to dashboard or login page after successful registration
-      // You can use React Router for navigation
+      // Redirect after a short delay
       setTimeout(() => {
         navigate("/");
-      }, 2000);
+      }, 1000);
     } catch (error) {
       console.error("Registration error:", error);
 

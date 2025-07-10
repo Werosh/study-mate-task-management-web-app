@@ -240,9 +240,11 @@ const Footer = () => {
 
         {/* Version info */}
         <motion.div variants={itemVariants} className="mt-4 text-center">
-          <span className="text-xs text-gray-500">
-            Developed By Werosh Kriyanjala
-          </span>
+          <a href="https://weroshportfolio.netlify.app/">
+            <span className="text-xs text-gray-500">
+              Developed By Werosh Kriyanjala
+            </span>
+          </a>
         </motion.div>
       </div>
     </motion.footer>

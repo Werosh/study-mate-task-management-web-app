@@ -27,7 +27,9 @@ const Login = () => {
       await loginUser(email, password);
       navigate("/");
     } catch (error) {
-      setError(error.message);
+      setError(
+        "Oops! Wrong username or password Or you might not have an account yet."
+      );
     } finally {
       setLoading(false);
     }
