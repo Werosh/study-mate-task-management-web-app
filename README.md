@@ -1,4 +1,4 @@
-# 📚 StudyMate – Smart Study Task Manager
+# 📚 StudyMate – Smart Study Task Manager..
 
 **StudyMate** is a full-stack web application built with React and Firebase to help students organize and manage their academic tasks with ease. Whether it’s tracking assignments, exam schedules, or lectures, StudyMate simplifies student productivity with a clean interface and intuitive features.
 
