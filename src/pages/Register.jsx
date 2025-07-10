@@ -15,6 +15,8 @@ import {
 import { useNavigate } from "react-router-dom";
 import { registerUser } from "../firebase/auth";
 import { useAuth } from "../context/AuthContext";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -298,11 +300,17 @@ const Register = () => {
           <div className="mt-6 text-center">
             <p className="text-gray-400">
               Already have an account?{" "}
-              <a href="/login">
-                <button className="text-blue-400 hover:text-blue-300 font-medium transition-colors hover:scale-105 inline-block">
+              <Link
+                to="/login"
+                className="text-blue-400 hover:text-blue-300 font-semibold"
+              >
+                <motion.span
+                  whileHover={{ scale: 1.05 }}
+                  className="inline-block"
+                >
                   Login here
-                </button>
-              </a>
+                </motion.span>
+              </Link>
             </p>
           </div>
         </div>
