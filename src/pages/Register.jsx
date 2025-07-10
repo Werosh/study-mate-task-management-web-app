@@ -298,12 +298,11 @@ const Register = () => {
           <div className="mt-6 text-center">
             <p className="text-gray-400">
               Already have an account?{" "}
-              <button
-                onClick={() => alert("Navigate to login page")}
-                className="text-blue-400 hover:text-blue-300 font-medium transition-colors hover:scale-105 inline-block"
-              >
-                Login here
-              </button>
+              <a href="/login">
+                <button className="text-blue-400 hover:text-blue-300 font-medium transition-colors hover:scale-105 inline-block">
+                  Login here
+                </button>
+              </a>
             </p>
           </div>
         </div>
