@@ -37,13 +37,13 @@
 
 ## 🛠 Tech Stack
 
-| Layer    | Tech Used                 |
-| -------- | ------------------------- |
-| Frontend | React, Vite, React Router |
-| Auth     | Firebase Authentication   |
-| Database | Firebase Firestore        |
-| UI Icons | React Icons               |
-| Hosting  | Vercel / Netlify          |
+| Layer    | Tech Used                         |
+| -------- | --------------------------------- |
+| Frontend | React, Tailwind CSS, React Router |
+| Auth     | Firebase Authentication           |
+| Database | Firebase Firestore                |
+| UI Icons | React Icons                       |
+| Hosting  | Vercel / Netlify                  |
 
 ---
 
